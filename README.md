@@ -25,9 +25,9 @@ Once the plugin is activated, you can add the "Quote of the Day" widget to any p
 
 ## Configuration
 
-The plugin has a few configuration options available:
+The plugin has a few configuration option available:
 
-1. **Styling**: You can customize the appearance of the quote widget, such as font, text color, and background color, using the Elementor style settings.
+**Styling**: You can customize the appearance of the quote widget, such as font, text color, and background color, using the Elementor style settings.
 
 ## Contributing
 
