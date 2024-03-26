@@ -31,7 +31,7 @@ The plugin has a few configuration option available:
 
 ## Contributing
 
-Contributions are welcome! If you have any feature requests, bug reports, or suggestions, please www.github.com/plugin/word-of-the-day on GitHub.
+Contributions are welcome! If you have any feature requests, bug reports, or suggestions, please [www.github.com/plugin/word-of-the-day](https://github.com/jonazodnem27/quote-of-the-day/) on GitHub.
 
 ## License
 
