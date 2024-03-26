@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.qotd-quote-box{
+    box-shadow: 0 3px 6px rgb(0 0 0 / 0%), 0 3px 6px rgb(0 0 0 / 9%);
+    border-radius: 5px;
+    padding: 40px 100px 40px 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.qotd-quote-box__paragraph{
+    margin: 0;
+    font-size: 17px;
+    position:  relative;
+    z-index: 1;
+}
+
+.qotd-quote-box__author{
+    font-style: italic;
+    font-size: 14px;
+    opacity: .5;
+    position:  relative;
+    z-index: 1;
+}
+
+.qotd-quote-box__icon{
+    position: absolute;
+    transform: rotate(180deg);
+    top: 25px;
+    left: 10px;
+    width: 50px;
+    opacity: .1;
+}
+
+.qotd-quote-box__icon.qotd-quote-box__icon_big{
+    transform: unset;
+    width: 200px;
+    right: -50px;
+    left: unset;
+    top: -30px;
+}
+
+@media screen and (max-width: 767px){
+    .qotd-quote-box {
+        padding: 25px 30px 25px 30px;
+    }
+
+    .qotd-quote-box__icon{
+        display: none;
+    }
+
+    .qotd-quote-box__icon.qotd-quote-box__icon_big{
+        display: block;
+    }
+}
